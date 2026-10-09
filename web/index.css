@@ -1,0 +1,114 @@
+:root {
+  --bg: #05070f;
+  --fg: #d7fff2;
+  --accent: #3dffb0;
+  --electric: #4d8dff;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top left, #0b1a35, var(--bg));
+  color: var(--fg);
+  font: 15px/1.55 "Rajdhani", system-ui, sans-serif;
+  min-height: 100vh;
+}
+.shell { max-width: 960px; margin: 0 auto; padding: 48px 24px; }
+h1 { font: 700 42px "Orbitron", sans-serif; color: var(--accent); letter-spacing: 0.04em; }
+section#panels { display: grid; gap: 16px; margin-top: 32px; }
+
+.cell-1 {
+  padding: 5px;
+  border-radius: 5px;
+  opacity: 0.6;
+  transition: transform 50ms ease;
+}
+.cell-1:hover { transform: scale(1.05); }
+
+.cell-2 {
+  padding: 22px;
+  border-radius: 6px;
+  opacity: 0.1;
+  transition: transform 700ms ease;
+}
+.cell-2:hover { transform: scale(1.07); }
+
+.cell-3 {
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0.7;
+  transition: transform 560ms ease;
+}
+.cell-3:hover { transform: scale(1.02); }
+
+.cell-4 {
+  padding: 2px;
+  border-radius: 10px;
+  opacity: 0.7;
+  transition: transform 260ms ease;
+}
+.cell-4:hover { transform: scale(1.08); }
+
+.cell-5 {
+  padding: 3px;
+  border-radius: 11px;
+  opacity: 0.7999999999999999;
+  transition: transform 270ms ease;
+}
+.cell-5:hover { transform: scale(1.00); }
+
+.cell-6 {
+  padding: 4px;
+  border-radius: 4px;
+  opacity: 0.30000000000000004;
+  transition: transform 520ms ease;
+}
+.cell-6:hover { transform: scale(1.07); }
+
+.cell-7 {
+  padding: 3px;
+  border-radius: 11px;
+  opacity: 0.7999999999999999;
+  transition: transform 270ms ease;
+}
+.cell-7:hover { transform: scale(1.00); }
+
+.cell-8 {
+  padding: 9px;
+  border-radius: 1px;
+  opacity: 0.2;
+  transition: transform 810ms ease;
+}
+.cell-8:hover { transform: scale(1.00); }
+
+.cell-9 {
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0.7;
+  transition: transform 560ms ease;
+}
+.cell-9:hover { transform: scale(1.02); }
+
+.cell-10 {
+  padding: 18px;
+  border-radius: 2px;
+  opacity: 0.9;
+  transition: transform 180ms ease;
+}
+.cell-10:hover { transform: scale(1.00); }
+
+.cell-11 {
+  padding: 22px;
+  border-radius: 14px;
+  opacity: 0.5;
+  transition: transform 940ms ease;
+}
+.cell-11:hover { transform: scale(1.04); }
+
+.cell-12 {
+  padding: 15px;
+  border-radius: 15px;
+  opacity: 0.4;
+  transition: transform 630ms ease;
+}
+.cell-12:hover { transform: scale(1.00); }
